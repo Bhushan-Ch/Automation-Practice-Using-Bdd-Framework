@@ -2,16 +2,11 @@
 Selenium Java Automation Framework using Cucumber BDD, TestNG, Maven, Page Object Model (POM), and Extent Reports.
 
 Sections
-01
-Basic Form Elements
-02
-Button Interactions
-03
-Checkboxes & Radio Buttons
-04
-Dropdowns
-05
-Locator Practice
+01 Basic Form Elements
+02 Button Interactions
+03 Checkboxes & Radio Buttons
+04 Dropdowns
+05 Locator Practice
 06
 Dynamic Content
 07
