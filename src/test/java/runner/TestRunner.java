@@ -9,7 +9,8 @@ import io.cucumber.testng.CucumberOptions;
 
 		glue = { "stepDefinitions", "hooks" },
 
-		plugin = { "pretty", "html:target/report.html" }
+		plugin = { "pretty", "html:target/report.html" },
+		tags = "@Sanity"
 
 )
 

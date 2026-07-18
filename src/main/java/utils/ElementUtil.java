@@ -76,6 +76,12 @@ public class ElementUtil {
 				.perform();
 
 	}
+	public boolean isSelected(By locator) {
+
+	    return waitUtil.waitForVisible(locator).isSelected();
+
+	}
+	
 	public boolean waitUntilElementEnabled(By locator) {
 
 	    return waitUtil.waitForElementToBeEnabled(locator).isEnabled();
